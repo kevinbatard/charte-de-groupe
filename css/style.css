@@ -76,3 +76,27 @@ ul {
 #checkBtn2:checked ~ #listing2 {
     display: block;
 }
+
+#checkBtn3 {
+    display: none;
+}
+
+#listing3 {
+    display: none; 
+}
+
+#checkBtn3:checked ~ #listing3 {
+    display: block;
+}
+
+#checkBtn4 {
+    display: none;
+}
+
+#listing4 {
+    display: none; 
+}
+
+#checkBtn4:checked ~ #listing4 {
+    display: block;
+}
