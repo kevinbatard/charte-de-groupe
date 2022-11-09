@@ -100,3 +100,8 @@ ul {
 #checkBtn4:checked ~ #listing4 {
     display: block;
 }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
