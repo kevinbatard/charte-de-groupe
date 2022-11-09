@@ -65,4 +65,14 @@ ul {
     list-style-image: url(/images/bullet.png);
 }
 
+#checkBtn2 {
+    display: none;
+}
 
+#listing2 {
+    display: none; 
+}
+
+#checkBtn2:checked ~ #listing2 {
+    display: block;
+}
