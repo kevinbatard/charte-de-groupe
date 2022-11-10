@@ -102,17 +102,48 @@ ul {
     display: block;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
+.contain {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
 }
 
-.column {
-    width: 500px;
+.intro {
+    grid-column: 3/7;
+    grid-row: 1;
 }
 
-.column2 {
-    flex: 2;
-    margin-left: 100px;
+.charte {
+    grid-column: 8/11;
+    grid-row: 1;
+
 }
+
+.article1 {
+    grid-column: 3/11;
+    grid-row: 2;
+}
+
+.article2 {
+    grid-column: 3/11;
+    grid-row: 3;
+}
+
+.article3 {
+    grid-column: 3/11;
+    grid-row: 4;
+}
+
+.article4 {
+    grid-column: 3/11;
+    grid-row: 5;
+
+}
+
+.code {
+    grid-column: 3/11;
+    grid-row: 6;
+}
+
+
 
