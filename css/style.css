@@ -103,5 +103,15 @@ ul {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column {
+width: 500px;
+}
+
+.column2 {
+   
+    flex: 2;
+    margin-left: 100px;
 }
